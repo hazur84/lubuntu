@@ -1,0 +1,52 @@
+Antes de comenzar asegúrese que cuenta con el siguiente material de trabajo:
+
+
+	• Disco grabado o archivo.iso de Lubuntu 14.04 LTS
+		○ Fuente: http://cdimage.ubuntu.com/lubuntu/releases/14.04/release/lubuntu-14.04-desktop-i386.iso
+		Se recomienda que utilice x86 si piensa utilizar menos de 4gb de RAM. En otro caso utlilice una imagen de 64 bits.
+		Fuente: http://lubuntu.net/
+		
+		Cuando se usa una maquina virtual se puede instalar el sistema desde el "archivo.iso". 
+		También se puede guardar en una memoria USB -1GB con "unetbootin" 
+		Fuente: http://unetbootin.sourceforge.net/
+		
+	• Una computadora funcional con arquitectura PCx86 con procesador Pentium  IV con 512MB de RAM o superior a estas caracterísiticas. 
+		De forma general computadoras fabricadas del año 2000 en adelante.
+		Un equipo con estas caracterísiticas con pantalla LCD de 15" se compra desde $1,000 pesos. 
+		Fuente: www.mercadolibre.com.mx.
+		
+		○ 512MB de RAM con partición SWAP de 1GB, (esta configuración fué probada y tiene buen desempeño).
+		○ 20GB de disco duro o superior (los archivos del sistema operativo y programas de aplicación ocupan menos de 10Gb).
+		○ Lector de discos.
+		○ Puerto USB.
+		
+	Para información detalla acerca de las configuraciones de hardware revisar:
+	https://wiki.ubuntu.com/Lubuntu/AdvancedMethods#Pentium_M_and_Celeron_MPro
+		
+	Todas las computadoras Mac Intel son compatibles.
+		
+	• Conexión a Internet por Ethernet o Wifi.
+		○ Para el Wifi se recomienda verificar que los controladores sean compatibles con Linux como ejemplos esta: 
+			§ Realtek RTL8187, 
+			§ Ralink, 
+			§ Atheros
+		○ Estos Chips mencionados tienen la ventaja de ser útiles para auditorías inalámbricas, compatibles con el paquete "Aircrack-ng"
+		Fuente: http://es.wikipedia.org/wiki/Aircrack-ng
+		
+		
+Para gusto del editor (yo), prefiero monitores con entrada HDMI que soporten fullHD (1920x1080), este conector salío a la venta en el 2003 y el tamaño de pantalla que ofrece una mejor densidad de pixeles DPI son los monitores de 21.5", 
+
+Acerca de la memoria RAM
+
+De las pruebas realizadas, se observó que Lubuntu14 consume al arrancar y sin ninguna aplicación lanzada por el usuario un total de 300 MB de RAM, dejando 200 MB para las aplicaciones, en caso de requerir mas memoria el sistema hace uso de la memoria de intercambio SWAP.
+
+Se observó que con 1GB de RAM es suficiente para trabajar con las aplicaciones cotidianas. (Navegador de internet, chat, reproductor de música, procesador de textos) 
+
+La prueba realizada consistió en lanzar las siguientes aplicaciónes trabajando de forma simultánea y monitorear el consumo de RAM:
+	• Chrome viendo video de Youtube y otra página estática.
+	• LibreOffice trabajando con procesador de textos y hoja de cálculo
+	• Pidgim con sesión iniciada de cuenta Hotmail
+	• Jdownloader descargando archivo
+	• PDF viewer revisando archivo pdf
+	• Gimp
+	• Inskape
